@@ -32,7 +32,7 @@ function AI() {
         action = bestAction(board, jogador);
         var div = document.getElementById('c' + action[0] + ',' + action[1]);
         div.click();
-    }, 2000); // 2000 milissegundos = 2 segundos(tempo que a IA leva pra realizar a jogada)
+    }, 1500); // 1500 milissegundos = 1,5 segundo(tempo que a IA leva pra realizar a jogada)
 }
 function init() {
     jogador = 'X';
